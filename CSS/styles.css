@@ -496,6 +496,9 @@ body{
       text-decoration-line: none;
       color: black;
    }
+   a.link:hover{
+      color: #46B1DE;
+   }
    .number{
       margin-left: 10px;
    }
