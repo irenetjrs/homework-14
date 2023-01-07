@@ -1,6 +1,5 @@
 *{
    box-sizing: border-box;
-   margin: 0 auto;
 }
 body{
    font-family: 'Roboto', sans-serif;
@@ -420,13 +419,22 @@ body{
       font-weight: 400;
       font-size: 18px;
    }
-   .contacts-phone{
+   .contacts-phone1, .contacts-phone2, .contacts-phone3{
       font-family: 'Roboto';
       font-weight: 400;
       font-size: 18px;
       display: flex;
       align-items: center;
       gap: 20px;
+   }
+   div.contacts-phone1::before{
+      content: url(/src/img/phone.png);
+   }
+   div.contacts-phone2::before{
+      content: url(/src/img/instagram.png);
+   }
+   div.contacts-phone3::before{
+      content: url(/src/img/email.png);
    }
    .working-hours{
       font-family: 'Roboto';
@@ -458,6 +466,7 @@ body{
       padding-top: 60px;
       max-width: 1400px;
       height: 663px;
+      margin: 0 auto;
    }
    .header{
       max-width: 1180px;
@@ -631,6 +640,7 @@ body{
    }
    .second-screen{
       max-width: 1400px;
+      margin: 0 auto;
    }
    .question{
       margin: 90px 394px 5px 365px;
