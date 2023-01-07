@@ -423,9 +423,10 @@ body{
       font-family: 'Roboto';
       font-weight: 400;
       font-size: 18px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
+      display: inline-block;
+/* 
+      gap: 20px; */
+      position: relative;
    }
    div.contacts-phone1::before{
       content: url(/src/img/phone.png);
@@ -435,6 +436,19 @@ body{
    }
    div.contacts-phone3::before{
       content: url(/src/img/email.png);
+   }
+   .underlined::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 2px;
+      background-color: white;
+      bottom: 0;
+      left: 0;
+      transform: scaleX(0);
+   }
+   .underlined:hover::after{
+      transform: scaleX(1);
    }
    .working-hours{
       font-family: 'Roboto';
