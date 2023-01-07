@@ -392,6 +392,9 @@ body{
       font-size: 14px;
       font-family: 'Roboto';
    }
+   .white:hover{
+      color: #FFFFFF;
+   }
    .schedule{
       display: flex;
       flex-direction: column;
@@ -424,8 +427,6 @@ body{
       font-weight: 400;
       font-size: 18px;
       display: inline-block;
-/* 
-      gap: 20px; */
       position: relative;
    }
    div.contacts-phone1::before{
