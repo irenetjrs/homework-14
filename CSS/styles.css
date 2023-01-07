@@ -59,10 +59,12 @@ body{
       color: black;
    }
    .phone{
-      max-width: 127px;
       height: 40px;
       font-size: 12px;
       font-weight: 400;
+   }
+   a.number::before{
+      content: url(/src/img/phone.svg);
    }
    main {
       position:relative;
