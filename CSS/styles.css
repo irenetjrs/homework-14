@@ -301,6 +301,9 @@ body{
       background: rgba(217, 217, 217, 0.71);
       border-radius: 8px;
    }
+   .input-box:focus{
+      border: solid #46B1DE 2px;
+   }
    .input-img{
       display: flex;   
       margin: 18px 10px 15px 10px;
