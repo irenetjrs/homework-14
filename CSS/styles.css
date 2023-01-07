@@ -499,8 +499,14 @@ body{
    .number{
       margin-left: 10px;
    }
+   .languages{
+      display: block;
+   }
    .language{
       font-weight: 600;
+   }
+   span.language::after{
+      content: "|";
    }
    main{
       margin-left: 110px;
